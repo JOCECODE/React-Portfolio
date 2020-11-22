@@ -1,3 +1,21 @@
-h1 {
-  background: green;
+.projectFont {
+  color: black;
+  border-bottom: 1px solid rgb(128, 128, 128, 0.5);
+}
+
+.projectsContainer {
+  margin-top: 50px;
+}
+
+.centerThis {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
 }

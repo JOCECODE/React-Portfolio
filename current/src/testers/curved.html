@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curved</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <link rel="stylesheet" type="text/css" href="./curved.css">
 </head>
 <body>
@@ -81,23 +82,27 @@
 
   <div class="container projectsContainer">
         <div class="row">
-          <div class="col centerThis">
+          <div class="col centerThis" data-aos="zoom-in-left" data-aos-duration="1500">
             <img src="./pics/donald-oomp.jpg" height="360px" width="340px"/>
             
           </div>
       </div>
       <div class="row">
-        <div class="col centerThis">
+        <div class="col centerThis" data-aos="zoom-in-right" data-aos-duration="1500">
           <img src="./pics/donald-oomp.jpg" height="360px" width="340px"/>
           
         </div>
     </div>
     <div class="row">
-        <div class="col centerThis">
+        <div class="col centerThis" data-aos="zoom-in-up" data-aos-duration="1500">
           <img src="./pics/donald-oomp.jpg" height="360px" width="340px"/>
           
         </div>
     </div>
   </div>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+      AOS.init();
+  </script>
 </body>
 </html>

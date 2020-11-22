@@ -8,7 +8,7 @@ return  <div className="about-area">
     <div className="row">
         <div className="col-lg-4">
             <div className="about-img">
-                <img src="./pics/profile720.jpg" alt="Self-Portrait"/>
+                <img src="https://i.imgur.com/hCVt35Q.jpg" alt="Self-Portrait"/>
             </div>
         </div>
         <div className="col-lg-6 mt-3 mt-md-5">
