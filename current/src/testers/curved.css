@@ -29,11 +29,7 @@
 
 .about-area {
   padding-top: 5%;
-}
-
-body {
-  background-color: #131f33;
-  background: rgba(25, 25, 25);
+  background: #131f33;
 }
 
 .about-img {
@@ -77,4 +73,18 @@ about-text {
   padding: 7px 15px;
   display: inline-block;
   margin-top: 20px;
+}
+
+.projectFont {
+  color: black;
+  border-bottom: 1px solid rgb(128, 128, 128, 0.5);
+}
+
+.projectsContainer {
+  margin-top: 50px;
+}
+
+.centerThis {
+  text-align: center;
+  margin-bottom: 100px;
 }
