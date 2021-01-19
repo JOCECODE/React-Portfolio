@@ -19,3 +19,8 @@
 .right {
   text-align: right;
 }
+
+#noPadding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
