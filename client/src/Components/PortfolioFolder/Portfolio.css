@@ -25,28 +25,3 @@
   padding-right: 0px;
   align-self: center;
 }
-
-.video {
-  float: left;
-}
-/* 
-.paraText {
-  position: absolute;
-  justify-self: center;
-  bottom: 180px;
-  right: 360px;
-}
-
-.relativePosition {
-  position: relative;
-} */
-
-.pucVideo {
-  display: inline;
-  float: right;
-}
-.pucText {
-  display: inline-block;
-  text-align: right;
-  justify-self: right;
-}

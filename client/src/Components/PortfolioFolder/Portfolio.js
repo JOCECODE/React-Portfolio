@@ -20,6 +20,9 @@ function Portfolio() {
 
 
   <div className="container projectsContainer">
+        
+        
+        {/* FIRST ROW */}
         <div className="row">
           
          
@@ -36,7 +39,7 @@ function Portfolio() {
 
       </div>
 
-
+      {/* SECOND ROW */}
       <div className="row">
            <div id="noPadding" className="col-8" data-aos="zoom-in-right" data-aos-duration="2000">
       <div className="right my-auto">
@@ -56,17 +59,17 @@ function Portfolio() {
     </div>
    
    
-   
-    <div className="row flexContainer">
-          <span className="pucText my-auto">
-            THIS IS TEXT FOR THE PUCMAN LAST ONE
-        </span>
-        
-        <div  id="noPadding" className="col right centerThis pucVideo" data-aos="zoom-in-right" data-aos-duration="1500">
-        <video width="360" height="360" autoPlay muted >
+    {/* THIRD ROW */}
+    <div className="row">
+        <div className="col-4" data-aos="zoom-in-left" data-aos-duration="2500">
+        <video className="video" width="360" height="360" autoPlay muted >
             <source src={Pucman} type="video/mp4"/>
           </video> 
         </div>  
+
+        <div id="noPadding" className="col-8 left" data-aos="zoom-in-left" data-aos-duration="2000">
+            THIS IS TEXT FOR THE PUCMAN LAST ONE
+        </div>
 
     </div>
 
