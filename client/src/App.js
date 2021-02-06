@@ -5,7 +5,7 @@ import Portfolio from "./Components/PortfolioFolder/Portfolio";
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
+import Projects from "./Components/Projects";
 
 
 function App() {
@@ -16,6 +16,7 @@ function App() {
   return (
     <>
     <Header/>
+    <Projects/>
     <Portfolio/>
    </>
   );

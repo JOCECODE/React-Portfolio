@@ -8,7 +8,7 @@ import Pucman from "./assets/PucmanChase.mp4";
 
 function Portfolio() {
     return <>
-         <div className="container">
+         {/* <div className="container">
     <div className="row projectFont">
         <div className="col">
               <p>
@@ -16,7 +16,7 @@ function Portfolio() {
               </p>
           </div>
       </div>
-  </div>
+  </div> */}
 
 
   <div className="container projectsContainer">
