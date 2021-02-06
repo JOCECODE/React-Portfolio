@@ -5,7 +5,7 @@ import "./Projects.css";
 export default function Projects() {
  return (
   <div className="noPadding">
-   <div className="a" href="#">
+   <div className="a">
     PROJECTS
     <span></span>
     <span></span>

@@ -25,6 +25,11 @@
   cursor: pointer;
   overflow: hidden;
 }
+.a:hover {
+  transition-delay: 0.8s;
+  background-color: #ebebeb;
+  color: #121212;
+}
 /* LINE COLOR */
 .a span {
   display: block;
