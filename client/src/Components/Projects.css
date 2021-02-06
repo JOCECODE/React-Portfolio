@@ -1,0 +1,94 @@
+.noPadding {
+  margin: 0;
+  margin-top: 2%;
+  padding: 0;
+  background: #333;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  font-size: 50px;
+}
+
+.a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 75px;
+  line-height: 75px;
+  background: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #121212;
+  cursor: pointer;
+  overflow: hidden;
+}
+/* LINE COLOR */
+.a span {
+  display: block;
+  background: black;
+  transition: all 0.2s;
+}
+
+.a span:nth-child(1),
+.a span:nth-child(3) {
+  position: absolute;
+  height: 2px;
+  width: 100%;
+}
+
+.a span:nth-child(2),
+.a span:nth-child(4) {
+  position: absolute;
+  height: 100%;
+  width: 2px;
+}
+
+.a span:nth-child(1) {
+  top: 0px;
+  left: -100%;
+}
+
+.a span:nth-child(2) {
+  top: -100%;
+  right: 0px;
+}
+
+.a span:nth-child(3) {
+  bottom: 0px;
+  right: -100%;
+}
+
+.a span:nth-child(4) {
+  left: 0px;
+  bottom: -100%;
+}
+
+.a:hover span:nth-child(1) {
+  top: 0px;
+  left: 0px;
+  transition-delay: 0s;
+}
+
+.a:hover span:nth-child(2) {
+  top: 0px;
+  right: 0px;
+  transition-delay: 0.6s;
+}
+
+.a:hover span:nth-child(3) {
+  bottom: 0px;
+  right: 0px;
+  transition-delay: 0.4s;
+}
+
+.a:hover span:nth-child(4) {
+  left: 0px;
+  bottom: 0px;
+  transition-delay: 0.2s;
+}
+/* div#root {
+  background-color: orangered;
+} */

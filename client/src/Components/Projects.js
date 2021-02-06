@@ -1,9 +1,18 @@
-import React from 'react'
+import React from 'react';
+import "./Projects.css";
+
 
 export default function Projects() {
  return (
-  <>
-   <h1>Hello</h1>
-  </>
+  <div className="noPadding">
+   <div className="a" href="#">
+    PROJECTS
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    
+   </div>
+  </div>
  )
 }
