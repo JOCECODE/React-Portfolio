@@ -23,7 +23,7 @@ return  <div className="about-area">
     </div>
 </div>
 <svg className="waveDiv" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319">
-    <path fill="white" 
+    <path fill="#121212" 
     fillOpacity="1" 
     d="M0,224L34.3,202.7C68.6,
     181,137,139,206,154.7C274.3,

@@ -21,14 +21,14 @@
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-  color: #121212;
+  color: #ebebeb;
   cursor: pointer;
   overflow: hidden;
 }
 /* LINE COLOR */
 .a span {
   display: block;
-  background: black;
+  background: #ebebeb;
   transition: all 0.2s;
 }
 
@@ -89,6 +89,12 @@
   bottom: 0px;
   transition-delay: 0.2s;
 }
-/* div#root {
-  background-color: orangered;
-} */
+
+div#root {
+  background-color: #121212;
+  overflow: hidden;
+}
+
+* {
+  color: #ebebeb;
+}
