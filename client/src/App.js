@@ -6,7 +6,8 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Projects from "./Components/Projects";
-
+import Transition from "./Components/Transition";
+import Footer from "./Components/Footer";
 
 function App() {
   useEffect(() => {
@@ -18,6 +19,8 @@ function App() {
     <Header/>
     <Projects/>
     <Portfolio/>
+    <Transition/>
+    <Footer/>
    </>
   );
 }

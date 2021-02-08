@@ -1,0 +1,11 @@
+.transitionContainer {
+  color: transparent;
+  cursor: default;
+  background: linear-gradient(
+    to top left,
+    #213963 0%,
+    #213963 50%,
+    #121212 50%,
+    #121212 100%
+  );
+}

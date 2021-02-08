@@ -1,0 +1,38 @@
+.footerContainer {
+  background: #202020;
+}
+
+.square {
+  top: 40px;
+  height: 80px;
+  width: 80px;
+  background-color: #373c44;
+  position: relative;
+  left: 46%;
+  overflow: hidden;
+  transition: background 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.square:hover {
+  background-color: #04c2c9;
+  cursor: pointer;
+  overflow: visible;
+}
+
+.kitty {
+  position: absolute;
+  bottom: -63%;
+  left: -60%;
+  height: 180px;
+  width: 180px;
+  transition: background 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.kitty:hover {
+  transform: scale(1.7);
+}
+
+.bottomName {
+  text-align: center;
+  margin-top: 4%;
+}
