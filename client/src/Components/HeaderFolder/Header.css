@@ -1,6 +1,6 @@
 .about-area {
   padding-top: 5%;
-  background: #131f33;
+  background: #213963;
 }
 
 .about-img {
@@ -47,5 +47,5 @@ about-text {
 }
 
 .waveDiv {
-  border-bottom: 1px solid #121212;
+  border-bottom: 20px solid #121212;
 }

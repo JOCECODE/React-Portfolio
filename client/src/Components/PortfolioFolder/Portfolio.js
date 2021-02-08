@@ -8,17 +8,7 @@ import Pucman from "./assets/PucmanChase.mp4";
 
 function Portfolio() {
     return <>
-         {/* <div className="container">
-    <div className="row projectFont">
-        <div className="col">
-              <p>
-                  Projects
-              </p>
-          </div>
-      </div>
-  </div> */}
-
-
+        
   <div className="container projectsContainer">
         
         
@@ -27,14 +17,19 @@ function Portfolio() {
           
          
           <div className="col-4" data-aos="zoom-in-left" data-aos-duration="2500">
-            <video className="video" width="360" height="360" autoPlay muted >
+            <video className="video" width="360" height="360" autoPlay muted loop="true" >
             <source src={Vibee} type="video/mp4"/>
           </video>
 
           </div>
 
           <div id="noPadding" className="col-8 left" data-aos="zoom-in-left" data-aos-duration="2000">
-            <div>hello there I dont know why hey I dont know why I I run away!</div>
+            <div className="informationContainer">
+              <h3 className="roles"><span className="applicationName">Application:</span> Vibee </h3>
+              <h3 className="roles"><span className="applicationName">Tools:</span> React Js / Node / MongoDb </h3>
+              <h3 className="roles"><span className="applicationName">Roles:</span> Designed Homescreen, About Us Page, and Collections page. Created lyric highlighting feature and incorporated Timeago npm package to show how long ago a post was created. </h3>
+              
+              </div>
           </div>
 
       </div>
@@ -43,12 +38,19 @@ function Portfolio() {
       <div className="row">
            <div id="noPadding" className="col-8" data-aos="zoom-in-right" data-aos-duration="2000">
       <div className="right my-auto">
-             Budget Tracker application that also works offline using Webpack
+      <div className="webpackContainer">
+              <h3 className="roles"><span className="applicationName">Application:</span> Budget Tracker </h3>
+              <h3 className="roles"><span className="applicationName">Tools:</span> jQuery / Web-Pack</h3>
+              <h3 className="roles"><span className="applicationName">Roles:</span> Create an application </h3>
+              <h3 className="roles"> that can store information</h3>
+              <h3 className="roles">both offline and online.</h3>
+              
+              </div>
            </div>
       </div>
       
       <div id="noPadding" className="col-4" data-aos="zoom-in-right" data-aos-duration="1000">
-           <video width="360" height="360" autoPlay muted >
+           <video width="360" height="360" autoPlay muted loop="true">
             <source src={Bud} type="video/mp4"/>
           </video>
 
@@ -62,13 +64,18 @@ function Portfolio() {
     {/* THIRD ROW */}
     <div className="row">
         <div className="col-4" data-aos="zoom-in-left" data-aos-duration="2500">
-        <video className="video" width="360" height="360" autoPlay muted >
+        <video className="video" width="360" height="360" autoPlay muted loop="true">
             <source src={Pucman} type="video/mp4"/>
           </video> 
         </div>  
 
         <div id="noPadding" className="col-8 left" data-aos="zoom-in-left" data-aos-duration="2000">
-            THIS IS TEXT FOR THE PUCMAN LAST ONE
+        <div className="pucmanContainer">
+              <h3 className="roles"><span className="applicationName">Application:</span> Pucman Chase </h3>
+              <h3 className="roles"><span className="applicationName">Tools:</span> Planck-Js (Box 2D) / Sequelize </h3>
+              <h3 className="roles"><span className="applicationName">Roles:</span> Designed Instructions Page, Favicon, Game icons (life, time, level, etc.) and High Scores page. Created routes to save user information and to navigate the application.</h3>
+              
+              </div>
         </div>
 
     </div>

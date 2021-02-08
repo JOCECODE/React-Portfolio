@@ -25,3 +25,23 @@
   padding-right: 0px;
   align-self: center;
 }
+
+.applicationName {
+  color: aquamarine;
+}
+
+.roles {
+  font-size: 23px;
+}
+
+.informationContainer {
+  margin-left: 3%;
+}
+
+.webpackContainer {
+  margin-right: 3%;
+}
+
+.pucmanContainer {
+  margin-left: 3%;
+}
