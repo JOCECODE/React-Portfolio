@@ -7,8 +7,8 @@ export default function Footer() {
   <>
    <div className="footerContainer">
     
-    <div className="square">
-     <img className="kitty" src={Cat}/>
+    <div id="tits" className="square">
+     <img id="big" className="kitty" src={Cat}/>
     </div>
     <div className="bottomName">
      JOSE ULICES PEREZ JR. <span style={{color: "red"}}>@2021</span>
