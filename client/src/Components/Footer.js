@@ -15,23 +15,23 @@ export default function Footer() {
 
 
 
+    <div className="bottomName">
+     JOSE ULICES PEREZ JR. <span style={{color: "red"}}>@2021</span>
+    </div >
 
     <div title="GitHub" onClick={() => openLink("https://github.com/JOCECODE")} className="square">
      <img  alt="Github Logo"  className="kitty" src={Cat}/>
     </div>
 
-    <div title="LinkedIn" onClick={() => openLink("#")} className="square square2">
+    <div title="LinkedIn" onClick={() => openLink("https://www.linkedin.com/in/jose-u-perez-jr/")} className="square square2">
      <img  alt="Github Logo"  className="kitty" src={Cat}/>
     </div>
 
-    <div title="Other Link" onClick={() => openLink("https://github.com/JOCECODE")} className="square square3">
+    <div title="Resume" onClick={() => openLink("https://docs.google.com/document/d/1uvdayI4uSEahfE8jJxs03TZfWyIwOzSvW7L7H3s-Eos/edit?usp=sharing")} className="square square3">
      <img  alt="Github Logo"  className="kitty" src={Cat}/>
     </div>
 
 
-    <div className="bottomName">
-     JOSE ULICES PEREZ JR. <span style={{color: "red"}}>@2021</span>
-    </div >
 
 
    </div>
