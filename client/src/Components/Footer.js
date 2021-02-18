@@ -1,6 +1,8 @@
 import React from 'react';
 import "./Footer.css";
 import Cat from "./icons/githubNoBack.png";
+import LinkedIn from "./icons/inNoBack.png";
+import Resume from "./icons/resIcon.png";
 
 export default function Footer() {
  
@@ -24,14 +26,12 @@ export default function Footer() {
     </div>
 
     <div title="LinkedIn" onClick={() => openLink("https://www.linkedin.com/in/jose-u-perez-jr/")} className="square square2">
-     <img  alt="Github Logo"  className="kitty" src={Cat}/>
+     <img  alt="Github Logo"  className="linkedIn" src={LinkedIn}/>
     </div>
 
     <div title="Resume" onClick={() => openLink("https://docs.google.com/document/d/1uvdayI4uSEahfE8jJxs03TZfWyIwOzSvW7L7H3s-Eos/edit?usp=sharing")} className="square square3">
-     <img  alt="Github Logo"  className="kitty" src={Cat}/>
+     <img  alt="Github Logo"  className="resume" src={Resume}/>
     </div>
-
-
 
 
    </div>

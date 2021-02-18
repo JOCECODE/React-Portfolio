@@ -23,7 +23,18 @@
   top: -120px;
 }
 
+/* github */
 .square:hover {
+  background-color: #389fff;
+  cursor: pointer;
+}
+/* linkedin */
+.square2:hover {
+  background-color: tomato;
+  cursor: pointer;
+}
+/* resume */
+.square3:hover {
   background-color: #fcf951ff;
   cursor: pointer;
 }
@@ -32,6 +43,24 @@
   position: absolute;
   bottom: -63%;
   left: -60%;
+  height: 180px;
+  width: 180px;
+  transition: background 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.linkedIn {
+  position: absolute;
+  bottom: -63%;
+  left: -63%;
+  height: 180px;
+  width: 180px;
+  transition: background 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.resume {
+  position: absolute;
+  bottom: -67%;
+  left: -63%;
   height: 180px;
   width: 180px;
   transition: background 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
@@ -65,6 +94,64 @@
   100% {
     top: -50px;
     content: url("./icons/CatChange.png");
+  }
+}
+
+.square2:hover .linkedIn {
+  /* I CAN ALSO PASS IN BACKWARDS, ALTERNATE-REVERSE, ALTERNATE */
+  -webkit-animation: up2 0.75s forwards;
+}
+@-webkit-keyframes up2 {
+  50% {
+    bottom: 40px;
+  }
+  51% {
+    top: 24px;
+  }
+  100% {
+    top: -50px;
+  }
+}
+@keyframes up2 {
+  50% {
+    bottom: 40px;
+  }
+  51% {
+    top: 24px;
+  }
+  100% {
+    top: -50px;
+  }
+}
+
+.square3:hover .resume {
+  /* I CAN ALSO PASS IN BACKWARDS, ALTERNATE-REVERSE, ALTERNATE */
+  -webkit-animation: up3 0.75s forwards;
+}
+@-webkit-keyframes up3 {
+  50% {
+    bottom: 40px;
+  }
+  51% {
+    top: 28px;
+    content: url("./icons/resChange.png");
+  }
+  100% {
+    top: -50px;
+    content: url("./icons/resChange.png");
+  }
+}
+@keyframes up3 {
+  50% {
+    bottom: 40px;
+  }
+  51% {
+    top: 28px;
+    content: url("./icons/resChange.png");
+  }
+  100% {
+    top: -46px;
+    content: url("./icons/resChange.png");
   }
 }
 
