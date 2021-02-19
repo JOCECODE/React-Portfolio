@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.cd65c9b2.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.6154fb3e.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.6154fb3e.chunk.js.map",
+    "main.css": "/React-Portfolio/static/css/main.6c35fb09.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.91444a89.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.91444a89.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.31c074e0.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.31c074e0.js.map",
     "static/css/2.0e9b1384.chunk.css": "/React-Portfolio/static/css/2.0e9b1384.chunk.css",
-    "static/js/2.6b4a18bd.chunk.js": "/React-Portfolio/static/js/2.6b4a18bd.chunk.js",
-    "static/js/2.6b4a18bd.chunk.js.map": "/React-Portfolio/static/js/2.6b4a18bd.chunk.js.map",
+    "static/js/2.22f3e05e.chunk.js": "/React-Portfolio/static/js/2.22f3e05e.chunk.js",
+    "static/js/2.22f3e05e.chunk.js.map": "/React-Portfolio/static/js/2.22f3e05e.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
-    "precache-manifest.2fb964ded716c3911214d7fbe6242d4f.js": "/React-Portfolio/precache-manifest.2fb964ded716c3911214d7fbe6242d4f.js",
+    "precache-manifest.24c86cd454068229de378acf1afc4716.js": "/React-Portfolio/precache-manifest.24c86cd454068229de378acf1afc4716.js",
     "service-worker.js": "/React-Portfolio/service-worker.js",
     "static/css/2.0e9b1384.chunk.css.map": "/React-Portfolio/static/css/2.0e9b1384.chunk.css.map",
-    "static/css/main.cd65c9b2.chunk.css.map": "/React-Portfolio/static/css/main.cd65c9b2.chunk.css.map",
-    "static/js/2.6b4a18bd.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.6b4a18bd.chunk.js.LICENSE.txt"
+    "static/css/main.6c35fb09.chunk.css.map": "/React-Portfolio/static/css/main.6c35fb09.chunk.css.map",
+    "static/js/2.22f3e05e.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.22f3e05e.chunk.js.LICENSE.txt",
+    "static/media/BudjetTracker.mp4": "/React-Portfolio/static/media/BudjetTracker.10e021ea.mp4",
+    "static/media/PucmanChase.mp4": "/React-Portfolio/static/media/PucmanChase.479aff29.mp4",
+    "static/media/Vibee.mp4": "/React-Portfolio/static/media/Vibee.9218da4c.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.31c074e0.js",
     "static/css/2.0e9b1384.chunk.css",
-    "static/js/2.6b4a18bd.chunk.js",
-    "static/css/main.cd65c9b2.chunk.css",
-    "static/js/main.6154fb3e.chunk.js"
+    "static/js/2.22f3e05e.chunk.js",
+    "static/css/main.6c35fb09.chunk.css",
+    "static/js/main.91444a89.chunk.js"
   ]
 }
