@@ -22,8 +22,8 @@ return  <div className="about-area">
         </div>
     </div>
 </div>
-<svg className="waveDiv" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319">
-    <path fill="#121212" 
+{/* <svg className="waveDiv" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319">
+    <path fill="#283d6f" 
     fillOpacity="1" 
     d="M0,224L34.3,202.7C68.6,
     181,137,139,206,154.7C274.3,
@@ -37,7 +37,10 @@ return  <div className="about-area">
     1029,320C960,320,891,320,823,320C754.3,320,
     686,320,617,320C548.6,320,480,320,411,320C342.9,
     320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
-  </svg>
+  </svg> */}
+  {/* NOT BEING USED YET */}
+  {/* <div className="horizontalBlackLine">
+  </div> */}
 </div>
 }
 

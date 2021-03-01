@@ -1,6 +1,6 @@
 .about-area {
   padding-top: 5%;
-  background: #213963;
+  background: #121212;
 }
 
 .about-img {
@@ -46,6 +46,9 @@ about-text {
   margin-top: 20px;
 }
 
-.waveDiv {
-  border-bottom: 20px solid #121212;
-}
+/* .horizontalBlackLine {
+  width: 2000px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: red;
+} */
