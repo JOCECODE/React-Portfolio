@@ -1,3 +1,11 @@
+.projContainer {
+  background-color: red;
+}
+
+.spacerMarginTop {
+  padding: 30px;
+}
+
 .noPadding {
   margin: 0;
   margin-top: 0%;

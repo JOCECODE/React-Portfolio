@@ -1,8 +1,10 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 import "./Header.css";
 
 function Header() {
-
+    const history = useHistory();
+   
 return  <div className="about-area">
     <div className="container">
     <div className="row">
@@ -17,7 +19,7 @@ return  <div className="about-area">
             <p>
                 A full-stack web developer from Norwalk, C.A. I enjoy making easy to use, fast and responsive websites.
             </p>
-            <button className="profileButton" href="#">Learn More!</button>
+            <button className="profileButton" onClick={() => history.push("/projects")} >Learn More!</button>
         </div>
         </div>
     </div>

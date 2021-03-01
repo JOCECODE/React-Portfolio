@@ -11,51 +11,39 @@ import Projects from "./Components/Projects";
 import Transition from "./Components/Transition";
 import Footer from "./Components/Footer";
 
-// function App() {
-//   useEffect(() => {
-//     AOS.init();
-//     AOS.refresh();
-//   }, []);
-//   return (
-//     <>
+// const Links = () => (
+//   <>
+//     <Link to="/">Home</Link>
+//     <Link to="/projects">About</Link>
+//   </>
+// );
 
-    
+const Home = props => <Header/>;
 
-//     <Header/>
-//     <Projects/>
-//     <Portfolio/>
-//     <Transition/>
-//     <Footer/>
-//    </>
-//   );
-// }
-
-const Links = () => (
-  <>
-    <Link to="/">Home</Link>
-    <Link to="/about">About</Link>
-  </>
-);
-
-const Home = props => <h1>Home</h1>;
-
-const About = props => <h1>About</h1>;
+const About = props => <Projects/>;
 
 
 export default function App() {
+    useEffect(() => {
+      AOS.init();
+      AOS.refresh();
+    }, []);
   return (
     <BrowserRouter>
-      <Links />
       <Route
         render={({ location }) => {
           return (
             <PageTransition
-              preset="moveToLeftFromRight"
+              // PROPS FROM THE PACKAGE FOLLOW CODE PEN FOR PROPS
+              preset="pushTopPullBottom"
+              enterAnimation="moveFromBottom"
+              exitAnimation="moveToTop"
               transitionKey={location.pathname}
             >
               <Switch location={location}>
                 <Route exact path="/" component={Home} />
-                <Route exact path="/about" component={About} />
+                <Route path="/projects" component={About} />
+                <Route component={Home}/>
               </Switch>
             </PageTransition>
           );
